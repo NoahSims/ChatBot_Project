@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename local variable &apos;isbnFinal&apos; in &apos;Exercise3_9.main(...)&apos; to &apos;isbn10&apos;&#x0D;&#x0A;- Original project: &apos;Homework 1&apos;&#x0D;&#x0A;- Original element: &apos;Exercise3_9.main(String[]).isbnFinal&apos;&#x0D;&#x0A;- Renamed element: &apos;isbnFinal&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;isbnFinal&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Exercise3_9.java[Exercise3_9~main~\[QString;@isbnFinal!699!737!728!736!I!0!false" name="isbn10" references="true" stamp="1567377186839" version="1.0"/>
-</session>
