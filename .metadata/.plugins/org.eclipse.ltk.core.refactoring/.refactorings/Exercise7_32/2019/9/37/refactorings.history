@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename local variable &apos;pivot&apos; in &apos;Exercise7_32.main(...)&apos; to &apos;pivotIndex&apos;&#x0D;&#x0A;- Original project: &apos;Exercise7_32&apos;&#x0D;&#x0A;- Original element: &apos;Exercise7_32.main(String[]).pivot&apos;&#x0D;&#x0A;- Renamed element: &apos;pivot&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;pivot&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Exercise7_32.java[Exercise7_32~main~\[QString;@pivot!360!387!364!368!I!0!false" name="pivotIndex" references="true" stamp="1568482577699" version="1.0"/>
-</session>
