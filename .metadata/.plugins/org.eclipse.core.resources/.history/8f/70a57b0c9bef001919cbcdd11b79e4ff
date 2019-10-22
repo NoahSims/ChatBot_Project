@@ -1,0 +1,51 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class ProgrammerCalc extends JFrame implements ActionListener
+{
+	static final long serialVersionUID = 0; // I don't know what this means but JFrame says I need it
+	
+	JButton num0Button, num1Button, num2Button, num3Button, num4Button, num5Button, num6Button, num7Button, num8Button, num9Button;
+	JPanel mainPanel;
+	GridBagConstraints c;
+	
+	public ProgrammerCalc()
+	{
+		mainPanel = new JPanel(new GridBagLayout());
+		num0Button = new JButton("0");
+		num1Button = new JButton("1");
+		num2Button = new JButton("2");
+		num3Button = new JButton("3");
+		num4Button = new JButton("4");
+		num5Button = new JButton("5");
+		num6Button = new JButton("6");
+		num7Button = new JButton("7");
+		num8Button = new JButton("8");
+		num9Button = new JButton("9");
+		
+		c = new GridBagConstraints();
+		c.gridwidth = 3;
+		c.gridheight = 4;
+		
+//		mainPanel.add(num7Button, c.gridx = 0, c.gridy = 0);
+//		mainPanel.add(num8Button, c.gridx = 1, c.gridy = 0);
+//		mainPanel.add(num9Button, c.gridx = 2, c.gridy = 0);
+//		mainPanel.add(num4Button, c.gridx = 0, c.gridy = 1);
+//		mainPanel.add(num5Button, c.gridx = 1, c.gridy = 1);
+//		mainPanel.add(num6Button, c.gridx = 2, c.gridy = 1);
+		c.gridy = 2;
+		mainPanel.add(num1Button, c.gridx = 0);
+		mainPanel.add(num2Button, c.gridx = 1);
+		mainPanel.add(num3Button, c.gridx = 2);
+		c.gridy = 3;
+		mainPanel.add(num0Button, c.gridx = 1);
+		
+		add(mainPanel, BorderLayout.CENTER);
+	}
+	
+	public void actionPerformed(ActionEvent e)
+	{
+		
+	}
+}

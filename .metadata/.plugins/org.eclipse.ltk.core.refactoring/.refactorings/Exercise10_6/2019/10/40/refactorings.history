@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Exercise10_6&apos;&#x0D;&#x0A;- Original project: &apos;Exercise10_6&apos;&#x0D;&#x0A;- Original element: &apos;StackOfIntegers.java&apos;" description="Delete element" element1="/src&lt;{StackOfIntegers.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1570160081695" subPackages="false" version="1.0"/>
+</session>
