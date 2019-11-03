@@ -149,7 +149,7 @@ public class ChatBot extends PircBot
 				// getLatestRelease returns a String[] with the artist's name at [0], the title of the release at [1], 
 				// the date of the release at [2], and the link to the spotify page of the release at [3]
 				sendMessage(channel, sender + ": The latest release from " + latestRelease[0] + " is " + latestRelease[1] + ", released on " + latestRelease[2]);
-				sendMessage(channel, latestRelease[0] + " by " + artistName + ": " + latestRelease[3]);
+				sendMessage(channel, latestRelease[1] + " by " + latestRelease[0] + ": " + latestRelease[3]);
 			}catch(Exception e) {
 				// there shouldn't be any exceptions that come from this section, but getLatestRelease throws
 				// a parse exception due to java.text.simpleDateFormat, so this is necessary for the method to function
