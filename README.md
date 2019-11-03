@@ -2,6 +2,7 @@
 A chatbot that can connect to a chat server, giving server members commands to get information from external APIs.
 
 ChatBot command list:
+
 	"!help" : outputs a list of the available commands to chat
 	"!time" : outputs the current time and date to chat
 	"!weather <zip code>, <country code>" : outputs the current temperature, as while as the high and
