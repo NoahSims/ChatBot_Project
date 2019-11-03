@@ -1,4 +1,4 @@
-# ChatBot_Project
+# ChatBot Project
 A chatbot that can connect to a chat server, giving server members commands to get information from external APIs.
 Currently the chatbot is set to connect to http://webchat.freenode.net/, using the channel #ngs170000BotTesting, however
 this can be configured in the SpotifyApi.java file.
